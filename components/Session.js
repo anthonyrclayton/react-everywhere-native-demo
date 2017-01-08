@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Modal, StyleSheet, View, Text, TouchableOpacity } from 'react-native'
+import { ScrollView, Image, Modal, StyleSheet, View, Text, TouchableOpacity } from 'react-native'
 
 const styles = StyleSheet.create({
   sessionTitle: {
@@ -23,7 +23,7 @@ class SessionDetails extends Component {
 
     return(
       <Modal style={{paddingTop: 30}}>
-        <View style={{padding: 30}}>
+        <ScrollView style={{padding: 30}}>
 
           <Text style={styles.sessionTitle}>{this.props.Title}</Text>
           <Image source={{uri: `https:${gravatarUrl}`}} style={{width: 90, height: 90, marginTop: 30}}/>
@@ -33,7 +33,7 @@ class SessionDetails extends Component {
           <TouchableOpacity onPress={this.props.onPress}>
             <Text>Close</Text>
           </TouchableOpacity>
-        </View>
+        </ScrollView>
       </Modal>
     )
   }
