@@ -4,13 +4,21 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#95FC00',
+    alignItems: 'stretch',
+  },
+  header: {
+    backgroundColor: '#f67f01',
+    borderBottomColor: 'red',
+    borderBottomWidth: 1,
+    paddingTop: 20,
+    margin: 0,
   },
   welcome: {
+    color: 'white',
+    textShadowColor: "#555",
+    textShadowOffset: {width: 1, height: 1},
     fontSize: 20,
     textAlign: 'center',
-    margin: 10,
   },
   instructions: {
     textAlign: 'center',
