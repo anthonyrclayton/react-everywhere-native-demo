@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import styles from './styles/AppStyles'
 import store, { updateSessions } from '../store'
 
-const SESSIONS_URL = 'https://speakers.codemash.org/api/sessionsdata'
+const SESSIONS_URL = 'https://codemash-data.surge.sh/sessions.json'
 
 export default class App extends Component {
   constructor(props) {
