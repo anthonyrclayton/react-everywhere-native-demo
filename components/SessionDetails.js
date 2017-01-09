@@ -8,7 +8,7 @@ export default class SessionDetails extends Component {
     const margin = Platform.OS === "ios" ? 65 : 30
 
     return(
-      <ScrollView style={{padding: 30, marginTop: margin}}>
+      <ScrollView style={{padding: 50, marginTop: margin}}>
         <Text style={styles.sessionTitle}>{this.props.Title}</Text>
         <Image source={{uri: `https:${gravatarUrl}`}} style={{width: 90, height: 90, marginTop: 30}}/>
 

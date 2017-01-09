@@ -1,0 +1,50 @@
+exports[`test renders correctly 1`] = `
+<ScrollView
+  style={
+    Object {
+      "marginTop": 65,
+      "padding": 30,
+    }
+  }>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontWeight": "bold",
+      }
+    }>
+    7 Languages in 7 Hours
+  </Text>
+  <Image
+    source={
+      Object {
+        "uri": "https://www.gravatar.com/avatar/7c2a83b93fe0e5f2ed4c95c59367259c",
+      }
+    }
+    style={
+      Object {
+        "height": 90,
+        "marginTop": 30,
+        "width": 90,
+      }
+    } />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "paddingBottom": 20,
+        "paddingTop": 20,
+      }
+    }>
+    Hands-on experience in seven different languages, ranging from object-oriented to functional, from the cozy and familiar to the eye-squintingly terse and foreign. You\'ll work through a familiar kata in each of them, showing you how to approach an entirely new language. You\'ll learn about the strengths and weaknesses of each language out in the real world. You\'ll also see how each language\'s quirks can teach us ways to improve the code we write every day.
+    
+    You may not come out of this pre-compiler an expert in all of these languages, but you\'ll have learned a lot about how to get started with a new one. You may even discover a new passion! At the very least, the next time a new language comes along, you\'ll have the tools you need to tackle it, and enough knowledge to help you push past the \"what is this syntax even doing\" barrier.
+    
+    Languages: Ruby, Clojure, Haskell, Rust, Scala, Elixir, Go
+  </Text>
+</ScrollView>
+`;
