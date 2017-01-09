@@ -1,4 +1,4 @@
-import App from './components/App'
+import Routes from './components/Routes'
 import {AppRegistry} from 'react-native'
 
-AppRegistry.registerComponent('ReactEverywhereNativeDemo', () => App)
+AppRegistry.registerComponent('ReactEverywhereNativeDemo', () => Routes)
