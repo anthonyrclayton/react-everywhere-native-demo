@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 import SessionList from './SessionList'
+import Search from './Search'
 import { Provider } from 'react-redux'
 import styles from './styles/AppStyles'
 import store, { updateSessions } from '../store'
@@ -25,6 +26,7 @@ export default class App extends Component {
               Welcome to CodeMash!
             </Text>
           </View>
+          <Search/>
           <SessionList/>
         </View>
       </Provider>

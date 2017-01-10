@@ -41,6 +41,8 @@ export const applyFilter = (filter) => {
 }
 
 const searchFor = (searchTerm) => {
+  console.log('sea', searchTerm)
+
   return R.filter((s) => {
     return s.Title.includes(searchTerm)
   })
@@ -53,8 +55,6 @@ const INITIAL_STATE = {
 }
 
 export const reducer = (state = INITIAL_STATE, action) => {
-  console.log('----> action', action)
-
   switch(action.type) {
     case SEARCH_SESSIONS:
       return {
